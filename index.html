@@ -208,10 +208,13 @@
         <form class="footer-form__form" action="https://jsonplaceholder.typicode.com/posts" method="POST">
           <input class="footer-form__input-field" type="text" name="name" placeholder="Фамилия, имя и отчество*">
           <input class="footer-form__input-field" type="text" name="email" placeholder="Email*">
-          <textarea rows="4" class="footer-form__input-field" name="message" placeholder="Сообщение"></textarea>
-          <button class="btn footer-form__btn" type="submit">Отправить данные</button>
-          <input class="footer-form__custom-checkbox" type="checkbox" id="agree" name="agree" value="yes">
-          <label class="footer-form__label-agree" for="agree">Согласен на обработку данных</label>
+          <textarea rows="4" class="footer-form__input-field footer-form__input-field_textarea" name="message"
+            placeholder="Сообщение"></textarea>
+          <div class="footer-form__button-container">
+            <button class="btn footer-form__btn" type="submit">Отправить данные</button>
+            <input class="footer-form__custom-checkbox" type="checkbox" id="agree" name="agree" value="yes">
+            <label class="footer-form__label-agree" for="agree">Согласен на обработку данных</label>
+          </div>
         </form>
       </div>
 
