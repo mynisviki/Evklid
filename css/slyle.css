@@ -102,10 +102,10 @@ img {
 
 .container {
   font-family: 'Montserrat';
-  max-width: 1820px;
+  max-width: 1870px;
   margin-right: auto;
   margin-left: auto;
-  padding: 0 25px;
+  padding: 0 50px;
 }
 
 .h1, h2, h3, h4, h5 {
