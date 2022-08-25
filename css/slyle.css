@@ -172,6 +172,17 @@ h3 {
   display: flex;
 }
 
+.header-adaptive__menu-icon {
+  width: 30px;
+  height: 23px;
+  background-image: url("../img/menu-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  padding: 0;
+  display: none;
+}
+
 .header-nav {
   display: flex;
   margin-right: 260px;
@@ -226,6 +237,35 @@ h3 {
   background-repeat: no-repeat;
   background-position: center;
   outline-color: var(--color-default);
+}
+
+@media screen and (max-width: 1306px) {
+  .header-nav {
+    margin-right: 70px;
+  }
+
+  .header-nav__list {
+    gap: 40px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header-adaptive__menu-icon {
+    display: block;
+  }
+
+  .header-nav {
+    display: none;
+  }
+
+  .header {
+    margin-bottom: 40px;
+  }
+
+  .logo__img {
+    width: 150px;
+    height: 48px;
+  }
 }
 
 /* main */
