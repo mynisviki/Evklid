@@ -348,9 +348,12 @@ h3 {
 }
 
 @media screen and (max-width: 1024px) {
+  .section-order {
+    margin-bottom: 35px;
+  }
+
   .order {
     padding: 160px 77px 30px;
-    margin-bottom: 40px;
   }
 
   .order__header {
@@ -360,9 +363,14 @@ h3 {
   }
 
   .order__text {
+    font-size: 20px;
     line-height: 24px;
     margin-top: 0;
     margin-bottom: 60px;
+  }
+
+  .order__btn {
+    margin-bottom: 115px;
   }
 }
 
@@ -379,10 +387,6 @@ h3 {
   .order__text {
     font-size: 18px;
     line-height: 22px;
-  }
-
-  .order__btn {
-    margin-bottom: 115px;
   }
 }
 
