@@ -560,7 +560,6 @@ h3 {
   margin: 0;
 }
 
-
 /* section-how-we-work */
 .section-how-we-work {
   margin-bottom: 112px;
@@ -612,7 +611,7 @@ h3 {
 .how-we-work__main-container {
   display: flex;
   gap: 142px;
-  align-items: flex-end;
+  align-items: stretch;
 }
 
 .how-we-work__header {
@@ -662,9 +661,45 @@ h3 {
 }
 
 .how-we-work__img {
-  width: 870px;
-  height: 460px;
+  max-width: 870px;
+  min-width: 0;
   border-radius: 32px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1870px) {
+  .how-we-work__main-container {
+    gap: 50px;
+  }
+
+  .how-we-work__info-container {
+    width: 50%;
+  }
+
+  .how-we-work__img {
+    width: 50%;
+  }
+
+  .how-we-work__steps {
+    margin-bottom: 50px;
+  }
+
+  .how-we-work__text {
+    margin-bottom: 25px;
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+  .section-how-we-work {
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section-how-we-work {
+    margin-bottom: 49px;
+  }
 }
 
 /* section-questions */
