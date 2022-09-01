@@ -388,6 +388,10 @@ h3 {
     padding: 160px 40px 30px;
   }
 
+  .order__img {
+    border-radius: 24px;
+  }
+
   .order__header {
     font-size: 50px;
     line-height: 61px;
