@@ -638,7 +638,7 @@ h3 {
 .how-we-work__main-container {
   display: flex;
   gap: 142px;
-  align-items: stretch;
+  align-items: flex-end;
 }
 
 .how-we-work__header {
@@ -696,6 +696,7 @@ h3 {
 
 @media screen and (max-width: 1870px) {
   .how-we-work__main-container {
+    align-items: stretch;
     gap: 50px;
   }
 
@@ -721,11 +722,42 @@ h3 {
   .section-how-we-work {
     margin-bottom: 80px;
   }
+
+  .how-we-work__img {
+    margin-top: 12px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .section-how-we-work {
     margin-bottom: 49px;
+  }
+
+  .how-we-work__steps {
+    justify-content: space-between;
+  }
+
+  .how-we-work__main-header {
+    margin-bottom: 48px;
+  }
+
+  .how-we-work__main-container {
+    flex-direction: column-reverse;
+    gap: 38px;
+  }
+  .how-we-work__img {
+   width: 100%;
+   margin-top: 0;
+   height: 284px;
+   border-radius: 24px;
+  }
+
+  .how-we-work__info-container {
+    width: 100%;
+  }
+
+  .how-we-work__break-line {
+    display: none;
   }
 }
 
