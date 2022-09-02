@@ -1069,3 +1069,51 @@ h3 {
   margin: 0;
   color: var(--color-white-gray);
 }
+
+@media screen and (max-width: 1760px) {
+  .footer__text {
+    display: none;
+  }
+
+  .footer__communication {
+    margin-right: 132px;
+  }
+
+  .footer-form {
+    margin-right: 0;
+    flex-grow: 1;
+  }
+
+  .footer-form__input-field {
+    width: 100%;
+  }
+
+  .footer-form__btn {
+    padding-left: 38px;
+    padding-right: 38px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .footer-nav__list {
+    display: none;
+  }
+
+  .footer-container {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .footer-form__form {
+    margin-bottom: 50px;
+  }
+
+  .footer__communication {
+    margin-right: 0;
+  }
+
+  .footer-form__input-field {
+    max-width: 541px;
+  }
+}
