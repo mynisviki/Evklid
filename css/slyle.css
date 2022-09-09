@@ -917,6 +917,58 @@ h3 {
   }
 }
 
+@media screen and (max-width: 560px) {
+  .section-how-we-work {
+    margin-bottom: 60px;
+  }
+
+  .how-we-work__main-header {
+    margin-bottom: 21px;
+  }
+
+  .how-we-work__steps {
+    gap: 44px;
+    margin-bottom: 16px;
+  }
+
+  .how-we-work__step {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .how-we-work__main-container {
+    gap: 16px;
+  }
+
+  .how-we-work__img {
+    height: 160px;
+    border-radius: 16px;
+  }
+
+  .how-we-work__text {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .how-we-work__button-container {
+    gap: 10px;
+  }
+
+  .how-we-work__btn-more {
+    font-size: 12px;
+    line-height: 15px;
+    padding: 12px 44px;
+    border-radius: 8px;
+  }
+
+  .how-we-work__btn-contract {
+    font-size: 12px;
+    line-height: 15px;
+    padding: 11px 31px;
+    border-radius: 8px;
+  }
+}
+
 /* section-questions */
 .questions {
   margin-bottom: 100px;
