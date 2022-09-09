@@ -1054,6 +1054,10 @@ h3 {
 }
 
 @media screen and (max-width: 750px) {
+  .questions {
+    margin-bottom: 60px;
+  }
+
   .questions__main-header {
     margin-bottom: 16px;
   }
@@ -1339,5 +1343,76 @@ h3 {
 
   .footer-form__input-field {
     max-width: 541px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .footer-form {
+    width: 100%;
+  }
+
+  .footer-form__form {
+    margin-bottom: 16px;
+    border-bottom: 1px solid var(--color-grey);
+  }
+
+  .footer-form__label-agree {
+    margin-bottom: 16px;
+  }
+
+  .footer-container {
+    padding-top: 33px;
+    padding-bottom: 30px;
+  }
+
+  .footer-form__header {
+    margin-bottom: 20px;
+  }
+
+  .footer-form__input-field {
+    max-width: none;
+    font-size: 14px;
+    padding-left: 20px;
+  }
+
+  .footer-form__input-field_textarea {
+    margin-bottom: 25px;
+  }
+
+  .footer-form__button-container {
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    align-items: center;
+  }
+
+  .footer-form__btn {
+    font-size: 12px;
+    line-height: 15px;
+    padding: 12px 28px;
+    margin-right: 0;
+  }
+
+  .footer__communication {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .footer__logo {
+    width: 131px;
+    height: 42px;
+    margin-bottom: 16px;
+  }
+
+  .social-media {
+    gap: 16px;
+  }
+
+  .social-media__icon {
+    width: 40px;
+    height: 40px;
+    background-size: 40px 40px;
   }
 }
