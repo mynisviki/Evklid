@@ -158,6 +158,18 @@ h3 {
     line-height: 15px;
     border-radius: 8px;
   }
+
+  h2 {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  h3 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+  }
 }
 
 /*header*/
@@ -557,6 +569,25 @@ h3 {
   flex-shrink: 0;
 }
 
+.info-card {
+  display: flex;
+  gap: 50px;
+  border: 1px solid var(--color-white-gray);
+  border-radius: 32px;
+  padding: 64px 60px;
+}
+
+.info-card-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 452px;
+}
+
+.info-card__text {
+  margin: 0;
+}
+
 @media screen and (max-width: 1550px) {
   .about-us__grid-container {
     display: block;
@@ -590,14 +621,6 @@ h3 {
   .illustrated-info__text {
     margin-right: 32px;
   }
-}
-
-.info-card {
-  display: flex;
-  gap: 50px;
-  border: 1px solid var(--color-white-gray);
-  border-radius: 32px;
-  padding: 64px 60px;
 }
 
 @media screen and (max-width: 1550px) {
@@ -639,15 +662,84 @@ h3 {
   }
 }
 
-.info-card-text-container {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  max-width: 452px;
-}
+@media screen and (max-width: 700px) {
+  .section-about-us {
+    margin-bottom: 60px;
+  }
 
-.info-card__text {
-  margin: 0;
+  .about-us__left-column {
+    height: auto;
+  }
+
+  .about-us__text {
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 14px;
+  }
+
+  .illustrated-info__img {
+    position: static;
+    height: 200px;
+    border-radius: 16px;
+    margin-bottom: 8px;
+  }
+
+  .illustrated-info__data {
+    position: static;
+    background: none;
+    flex-direction: column;
+    padding: 0;
+    align-items: flex-start;
+    height: auto;
+    gap: 12px;
+  }
+
+  .illustrated-info__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    margin-right: 0;
+    color: var(--color-black);
+  }
+
+  .illustrated-info__btn {
+    font-size: 12px;
+    line-height: 15px;
+    padding: 10px 42px;
+    color: var(--color-default);
+    border-radius: 8px;
+    border-width: 2px;
+  }
+
+  .illustrated-info__btn:hover,
+  .illustrated-info__btn:focus,
+  .illustrated-info__btn:active {
+    color: var(--color-white);
+  }
+
+  .info-card {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    max-height: none;
+    padding: 0;
+    border: none;
+    gap: 12px;
+  }
+
+  .info-card-text-container {
+    gap: 4px;
+  }
+
+  .info-card__img {
+    width: 64px;
+    height: 49px;
+  }
+
+  .info-card__text {
+    font-size: 14px;
+    line-height: 28px;
+  }
 }
 
 /* section-how-we-work */
