@@ -147,7 +147,7 @@ h3 {
   line-height: 29px;
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 750px) {
   .container {
     padding-left: 15px;
     padding-right: 15px;
@@ -168,7 +168,6 @@ h3 {
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
-
   }
 }
 
@@ -980,6 +979,7 @@ h3 {
 
 .questions__item {
   display: flex;
+  gap: 15px;
   justify-content: space-between;
   align-items: center;
   padding: 30px 0;
@@ -1053,6 +1053,23 @@ h3 {
   }
 }
 
+@media screen and (max-width: 750px) {
+  .questions__main-header {
+    margin-bottom: 16px;
+  }
+
+  .questions__header {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .questions__btn {
+    flex-shrink: 0;
+    width: 30px;
+    height: 30px;
+    background-size: 19px;
+  }
+}
 
 /* footer */
 .footer {
