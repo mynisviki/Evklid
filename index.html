@@ -46,7 +46,13 @@
   <main>
     <section class="container section-order">
       <div class="order">
-        <img class="order__img" src="img/low-angle-photo-of-balconie.jpg" alt="балкон">
+        <picture>
+          <source srcset="img/low-angle-photo-of-balconies-4.jpg" media="(max-width: 320px)">
+          <source srcset="img/low-angle-photo-of-balconies-3.jpg" media="(max-width: 768px)">
+          <source srcset="img/low-angle-photo-of-balconies-2.jpg" media="(max-width: 1024px)">
+          <img class="order__img" src="img/low-angle-photo-of-balconie.jpg" alt="балкон">
+        </picture>
+
         <div class="order__container-inside">
           <h1 class="order__header">Проектные решения любой сложности
           </h1>
@@ -80,7 +86,13 @@
         <div class="about-us__grid-container">
 
           <div class="illustrated-info about-us__left-column">
-            <img class="illustrated-info__img" src="img/Rectangle2.jpg" alt="рабочий">
+            <picture>
+              <source srcset="img/Rectangle-4.jpg" media="(max-width: 320px)">
+              <source srcset="img/Rectangle-3.jpg" media="(max-width: 768px)">
+              <source srcset="img/Rectangle-2.jpg" media="(max-width: 1024px)">
+              <img class="illustrated-info__img" src="img/Rectangle.jpg" alt="рабочий">
+            </picture>
+
             <div class="illustrated-info__data">
               <p class="illustrated-info__text">Принимая во внимание показатели успешности, перспективное планирование
                 способствует подготовке и реализации новых принципов</p>
@@ -91,7 +103,11 @@
 
           <div class="info-card-box">
             <div class="info-card">
-              <img class="info-card__img" src="img/cube.svg" alt="кубик">
+              <picture>
+                <source srcset="img/cube-2.svg" media="(max-width: 320px)">
+                <img class="info-card__img" src="img/cube.svg" alt="кубик">
+              </picture>
+
               <div class="info-card-text-container">
                 <h3 class="info-card__header">Консультация с широким активом</h3>
                 <p class="info-card__text">А также свежий взгляд на привычные вещи —
@@ -102,7 +118,10 @@
             </div>
 
             <div class="info-card">
-              <img class="info-card__img" src="img/wheel.svg" alt="шестеренка">
+              <picture>
+                <source srcset="img/wheel-2.svg" media="(max-width: 320px)">
+                <img class="info-card__img" src="img/wheel.svg" alt="шестеренка">
+              </picture>
               <div class="info-card-text-container">
                 <h3 class="info-card__header">В своём стремлении повысить</h3>
                 <p class="info-card__text">Качество жизни, они забывают, что сплочённость
@@ -144,7 +163,12 @@
             </button>
           </div>
         </div>
-        <img class="how-we-work__img" src="img/laptop.jpg" alt="ноутбук">
+        <picture class="how-we-work__img-container">
+          <source srcset="img/laptop-4.jpg" media="(max-width: 320px)">
+          <source srcset="img/laptop-3.jpg" media="(max-width: 768px)">
+          <source srcset="img/laptop-2.jpg" media="(max-width: 1024px)">
+          <img class="how-we-work__img" src="img/laptop.jpg" alt="ноутбук">
+        </picture>
       </div>
     </section>
 
